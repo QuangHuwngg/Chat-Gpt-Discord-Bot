@@ -1,1 +1,0 @@
-# Chat-Gpt-Discord-Bot
