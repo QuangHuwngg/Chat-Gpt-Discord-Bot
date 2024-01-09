@@ -1,34 +1,32 @@
-# Discord-Chat-Bot
-This is an example Discord Chat Bot based on Open Ai and Discord.js Library. This code is capable of remembering the previous conversations and can reply accordingly.
+# Discord Chat Bot
+Đây là một ví dụ về Discord Chat Bot dựa trên Thư viện Open AI và Discord.js. Mã này có khả năng ghi nhớ các cuộc hội thoại trước đó và có thể trả lời tương ứng
 
-## Requirements
-- A Discord Bot with its Token.
-- Open Ai API Key [Get Key from here](https://platform.openai.com)
+## Yêu cầu
+- Một Bot Discord có Token của nó
+- Open Ai API Key [Nhận khóa từ đây](https://platform.openai.com)
 
-## Startup
-- Create a file named `.env`.
-- Enter the following details to it:
+## Khởi động
+- Tạo một tệp có tên `.env`
+- Nhập các chi tiết sau vào nó:
 ```
-token="YOUR TOKEN"
+token="NHẬP MÃ TOKEN BOT DISCORD"
 OPENAI_API_KEY="API KEY"
 ```
-- In config.json, enter the channel-id's in which you want to enable the bot.
-- Save the file. Open Terminal in the Project Directory.
-- Run:
+- Trong config.json, nhập id kênh mà bạn muốn bật bot
+- Lưu các tập tin. Mở Terminal trong Thư mục dự án
+- Để sử dụng, hãy nhập lệnh:
 ```
 npm i
 node index.js
 ```
-- You are done.
 
-## Configuration
-To get Custom Response, just head to `prompt` variable, and change things accordingly. Do not add so many information, otherwise you will exhaust your free credits quickly.
+## Cấu hình
+Để nhận Phản hồi tùy chỉnh, chỉ cần đi tới biến `prompt` và thay đổi mọi thứ cho phù hợp. Đừng thêm quá nhiều thông tin, nếu không bạn sẽ nhanh chóng cạn kiệt số tín dụng miễn phí của mình
 
-## Troubleshooting
-- Error: Status Code 500 : This means there is an server error from OpenAi
-- Error: Status Code 429 : You have been rate-limited from OpenAi
+## Xử lý sự cố
+- Error: Status Code 500 : Điều này có nghĩa là có lỗi máy chủ từ OpenAi
+- Error: Status Code 429 : Bạn đã bị giới hạn tỷ lệ từ OpenAi
 
-## Support
-Join our Discord Servers, to get support:
+## Bản quyền thuộc về @Elitex07
+- Link: https://github.com/Elitex07/Chat-Gpt-Discord-Bot
 
-[<img src="https://discordapp.com/api/guilds/890225986375929866/widget.png?style=banner2" alt="Discord Banner 1"/>](https://discord.gg/UN7YBb23tu)
